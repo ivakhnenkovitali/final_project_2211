@@ -1,0 +1,73 @@
+.form-box {
+   text-align: center;
+   position: absolute;
+   background-color: lightgray;
+   width: 300px;
+   border: 10px solid green;
+   padding: 50px;
+   margin: 20px;
+   top: 30%;
+   left: 35%;
+}
+
+input{
+   width: 200px;
+   padding: 5px;
+   margin: 5px;
+}
+
+input[type=submit]{
+    width: 120px;
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.error{
+   color: red;
+}
+
+.nav-ul{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: gray;
+}
+
+.nav-li{
+   float: right;
+}
+
+.nav-li.float-left{
+   float: left;
+}
+
+.nav-li a{
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+.nav-li a:hover:not(.active){
+   background-color: dimgray;
+}
+
+.active {
+   background-color: green;
+}
+
+.default-image {
+   width: 100%;
+   opacity: 0.5;
+}
+
+body {
+    margin: 0px;
+}
