@@ -15,6 +15,10 @@
     <c:otherwise>
       <li class="nav-li float-left">
         <a class="active" href="<%=JspConstants.HOME_JSP%>">Home</a></li>
+      <li class="nav-li float-left">
+        <a href="<%=ApplicationConstants.PIZZA_MENU%>">Pizza</a></li>
+      <li class="nav-li float-left">
+        <a href="<%=ApplicationConstants.DRINKS_MENU%>">Drink</a></li>
       <li class="nav-li">
         <a href="<%=ApplicationConstants.LOGOUT_CONTROLLER%>">Logout</a></li>
     </c:otherwise>

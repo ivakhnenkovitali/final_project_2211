@@ -71,3 +71,18 @@ input[type=submit]{
 body {
     margin: 0px;
 }
+
+.food-item-box {
+    background-color: lightgray;
+    width: 200px;
+    height: 251px;
+    border: 3px solid green;
+    padding: 15px;
+    margin: 25px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.small-image {
+    width: 200px;
+}
