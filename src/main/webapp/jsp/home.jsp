@@ -27,7 +27,20 @@
                 <div class="food-item-box">
                     <img class="small-image" src="/img/${drink.name}.jpg" alt="drink">
                     <p>Name: ${drink.name}</p>
-                    <p>Price: ${drink.price}</p>
+                    <p>Price: ${drink.price} $</p>
+                    <form method="post=" action="<%=ApplicationConstants.CART_CONTROLLER%>">
+                       <input type="hidden" name="<%=JspConstants.CART_ACTION_PARAM%>" value="addToCart">
+                       <input type="hidden" name="<%=JspConstants.FOOD_ID_PARAM%>" value="${pizza.id}">
+                        <input type="hidden" name="<%=JspConstants.FOOD_TYPE_PARAM%>" value="1">
+                        <input type="hidden" name="<%=JspConstants.FOOD_ID_PARAM%>">
+                        <input type="hidden" name="<%=JspConstants.FOOD_ID_PARAM%>">
+                        <input type="hidden" value="">
+
+
+
+
+
+                    </form>
                 </div>
             </c:forEach>
         </c:if>

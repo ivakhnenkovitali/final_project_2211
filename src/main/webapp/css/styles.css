@@ -86,3 +86,19 @@ body {
 .small-image {
     width: 200px;
 }
+input[type=number]{
+    width: 45px;
+    padding: 5px;
+}
+
+.food-item-box input[type=submit] {
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    margin-left: 35px;
+    cursor: pointer;
+}
