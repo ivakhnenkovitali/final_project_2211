@@ -1,22 +1,22 @@
 .form-box {
-   text-align: center;
-   position: absolute;
-   background-color: lightgray;
-   width: 300px;
-   border: 10px solid green;
-   padding: 50px;
-   margin: 20px;
-   top: 30%;
-   left: 35%;
+    text-align: center;
+    position: absolute;
+    background-color: lightgray;
+    width: 300px;
+    border: 10px solid green;
+    padding: 50px;
+    margin: 20px;
+    top: 30%;
+    left: 35%;
 }
 
-input{
-   width: 200px;
-   padding: 5px;
-   margin: 5px;
+input {
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
 }
 
-input[type=submit]{
+input[type=submit] {
     width: 120px;
     background-color: green;
     border: none;
@@ -27,45 +27,45 @@ input[type=submit]{
     cursor: pointer;
 }
 
-.error{
-   color: red;
+.error {
+    color: red;
 }
 
-.nav-ul{
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
-   overflow: hidden;
-   background-color: gray;
+.nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
 }
 
-.nav-li{
-   float: right;
+.nav-li {
+    float: right;
 }
 
-.nav-li.float-left{
-   float: left;
+.nav-li.float-left {
+    float: left;
 }
 
-.nav-li a{
-   display: block;
-   color: white;
-   text-align: center;
-   padding: 14px 16px;
-   text-decoration: none;
+.nav-li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-.nav-li a:hover:not(.active){
-   background-color: dimgray;
+.nav-li a:hover:not(.active) {
+    background-color: dimgray;
 }
 
 .active {
-   background-color: green;
+    background-color: green;
 }
 
 .default-image {
-   width: 100%;
-   opacity: 0.5;
+    width: 100%;
+    opacity: 0.5;
 }
 
 body {
@@ -86,7 +86,8 @@ body {
 .small-image {
     width: 200px;
 }
-input[type=number]{
+
+input[type=number] {
     width: 45px;
     padding: 5px;
 }
@@ -101,4 +102,33 @@ input[type=number]{
     text-decoration: none;
     margin-left: 35px;
     cursor: pointer;
+}
+
+.cart-item-container {
+    height: 80px;
+}
+
+.cart-img {
+    height: 60px;
+    float: left;
+    border: 1px solid black;
+    margin: 5px 50px 10px 0px;
+
+}
+
+.cart-text {
+    margin: 0 0 10px;
+}
+
+.cart-item-container input[type=submit] {
+    width: 140px;
+    height: 35px;
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    margin: 0 3px;
+    cursor: pointer;
+
 }
