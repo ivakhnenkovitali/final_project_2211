@@ -12,13 +12,13 @@
 <jsp:include page="<%=JspConstants.MENU_JSP%>"/>
 <h2>Hello ${user.name}</h2>
 <c:choose>
-    <c:when test="${not empty orderItens}">
+    <c:when test="${not empty orderItems}">
         <h2>Yours order items:</h2>
         <c:forEach var="orderItem" items="${orderItems}">
             <div class="cart-item-container">
                 <img class="cart-img" src="img/${orderItem.foodItem.name}.jpg">
                 <h3 class="cart-text">
-                    You ordered ${orderItem.quantity} ${orderItem.foodItem.name} $
+                    You ordered ${orderItem.quantity} ${orderItem.foodItem.name}$
                         ${orderItem.foodItem.price} byn.
                     Amount is ${orderItem.quantity * orderItem.foodItem.price} byn.
                 </h3>
@@ -31,11 +31,18 @@
                     <input type="hidden" name="<%=JspConstants.FOOD_QUANTITY_PARAM%>" value="${orderItem.quantity}">
                     <input type="submit" value="Remove from Cart">
                 </form>
-
-
-
             </div>
         </c:forEach>
+            <div class="order-container">
+                <%=ApplicationConstants.ORDER_CONTROLLER%>
+                <input name="<%=JspConstants.ADDRESS_PARAM%>"placeholder="Delivery address" required>
+                <input type="submit" value="Submit order">
+            </form>
+            <c:if test="${not empty message}">
+                <h2 class="error">${message}</h2>
+            </c:if>
+
+        </div>
     </c:when>
     <c:otherwise>
         <h2>You have no items in the cart</h2>

@@ -21,7 +21,7 @@
       <input type="submit" value="Register">
     </form>
     <c:if test="${not empty message}">
-       <h2 class="error">${message}</p>
+      <h2 class="error">${messsage}</h2>
     </c:if>
   </div>
 </body>

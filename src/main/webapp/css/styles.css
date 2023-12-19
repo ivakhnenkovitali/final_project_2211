@@ -132,3 +132,30 @@ input[type=number] {
     cursor: pointer;
 
 }
+.order-container{
+    width: 600px;
+    text-align: center;
+}
+
+.order-container input {
+    width: 600px;
+    padding: 5px 0;
+    margin: 15px 0;
+}
+.order-container input[type=submit]{
+    width: 150px;
+    background-color: green;
+    border: none;
+    cursor: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
