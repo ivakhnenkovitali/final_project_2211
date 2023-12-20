@@ -20,6 +20,7 @@ public class JspConstants {
     public static final String PIZZA_ATTR = "pizzas";
     public static final String DRINK_ATTR = "drinks";
     public static final String ORDER_ITEMS_ATTR = "orderItems";
+    public static final String ORDER_ID_ATTR = "orderId";
 
 
 

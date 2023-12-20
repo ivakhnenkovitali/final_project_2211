@@ -6,11 +6,23 @@
 <head>
     <title>Home Page</title>
     <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/slide.js"></script>
 </head>
 <body>
 <jsp:include page="<%=JspConstants.MENU_JSP%>"/>
 <h2>Hello ${user.name}</h2>
-<h1>Some content will be placed here.. i.e. slider</h1>
+<c:if test="${not empty message}">
+    <h2>${message}</h2>
+
+
+</c:if>
+
+<!--  -->
+
+
+<jsp:include page="/jsp/slider.html"/>
+
+
 <c:if test="${not empty pizzas}">
     <h2>Today we propose next pizzas:</h2>
     <c:forEach var="pizza" items="${pizzas}">
@@ -47,7 +59,7 @@
                 <input type="number" name="<%=JspConstants.FOOD_QUANTITY_PARAM%>" required>
                 <input type="submit" value="Add to Cart">
             </form>
-            </form>
+
         </div>
     </c:forEach>
 </c:if>

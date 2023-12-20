@@ -34,7 +34,7 @@
             </div>
         </c:forEach>
             <div class="order-container">
-                <%=ApplicationConstants.ORDER_CONTROLLER%>
+               <form method="post" action="<%=ApplicationConstants.ORDER_CONTROLLER%>">
                 <input name="<%=JspConstants.ADDRESS_PARAM%>"placeholder="Delivery address" required>
                 <input type="submit" value="Submit order">
             </form>
