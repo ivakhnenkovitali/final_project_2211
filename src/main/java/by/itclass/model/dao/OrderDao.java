@@ -3,9 +3,9 @@ package by.itclass.model.dao;
 import by.itclass.model.db.ConnectionManager;
 import by.itclass.model.entities.OrderItem;
 import by.itclass.model.entities.User;
-import com.sun.jdi.connect.spi.Connection;
 import jakarta.servlet.http.HttpSession;
 
+import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.time.LocalDateTime;
@@ -73,8 +73,8 @@ public class OrderDao {
     }
 
     private void secondAction(String orderId, OrderItem item, Connection cn) throws SQLException {
-        try (var psSaveItem = cn.PreparedStatement(INSERT_ORDER_ITEM)) {
-            psSaveItem.setSting(1, orderId);
+        try (var psSaveItem = cn.prepareStatement(INSERT_ORDER_ITEM)) {
+            psSaveItem.setString(1, orderId);
             psSaveItem.setInt(2, item.getFoodItem().getId());
             psSaveItem.setInt(3, item.getQuantity());
             psSaveItem.executeUpdate();

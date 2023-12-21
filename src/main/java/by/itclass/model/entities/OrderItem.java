@@ -9,7 +9,7 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class OrderItem {
     private String orderId;
-    private final FoodItem item;
+    private final FoodItem foodItem;
     private final int quantity;
 
 
