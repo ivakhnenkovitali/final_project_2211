@@ -65,7 +65,7 @@ input[type=submit] {
 
 .default-image {
     width: 100%;
-    opacity: 0.5;
+
 }
 
 body {
@@ -159,6 +159,32 @@ input[type=number] {
 }
 
 
+.order-list-container{
+    background-color: lightgray;
+}
+.order-list-container input[type=submit]{
+    width: 200px;
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    margin: 0 0 20px 20px;
+ }
+
+.receipt-container{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    background-color: lightgray;
+    border: 1px solid gray;
+    padding: 20px;
+    display: inline-block;
+
+}
+.receipt-container .underline{
+    text-decoration: underline;
+}
 
 
 

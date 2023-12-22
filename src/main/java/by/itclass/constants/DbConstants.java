@@ -15,4 +15,7 @@ public class DbConstants {
 
     public static final String INSERT_ORDER = "INSERT INTO orders(id, date, userId, address) VALUES (?, ?, ?, ?)";
     public static final String INSERT_ORDER_ITEM = "INSERT INTO orderItem (orderId, itemId, quantity) VALUES(?, ?, ?)";
+
+
+
 }

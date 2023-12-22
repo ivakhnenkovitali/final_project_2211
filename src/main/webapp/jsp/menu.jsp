@@ -23,6 +23,8 @@
         <a href="<%=ApplicationConstants.LOGOUT_CONTROLLER%>">Logout</a></li>
       <li class="nav-li">
         <a href="<%=JspConstants.CART_JSP%>">Cart</a></li>
+      <li class="nav-li">
+        <a href="<%=ApplicationConstants.ORDER_HISTORY_CONTROLLER%>">Orders</a></li>
     </c:otherwise>
   </c:choose>
 </ul>
