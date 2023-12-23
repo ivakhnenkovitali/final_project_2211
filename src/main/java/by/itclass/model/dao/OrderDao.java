@@ -1,15 +1,18 @@
 package by.itclass.model.dao;
 
 import by.itclass.model.db.ConnectionManager;
+import by.itclass.model.entities.Order;
 import by.itclass.model.entities.OrderItem;
 import by.itclass.model.entities.User;
 import jakarta.servlet.http.HttpSession;
 
+import java.sql.Array;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
@@ -57,7 +60,7 @@ public class OrderDao {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        session.setAttribute(ORDER_ID_ATTR,orderId);
+        session.setAttribute(ORDER_ID_ATTR, orderId);
         return true;
     }
 
@@ -72,6 +75,7 @@ public class OrderDao {
         }
     }
 
+
     private void secondAction(String orderId, OrderItem item, Connection cn) throws SQLException {
         try (var psSaveItem = cn.prepareStatement(INSERT_ORDER_ITEM)) {
             psSaveItem.setString(1, orderId);
@@ -81,7 +85,24 @@ public class OrderDao {
         }
     }
 
+    public List<Order> getOrders(int userId) {
+        var orders = new ArrayList<Order>();
+        try (var cn = ConnectionManager.getConnection();
+             var ps = cn.prepareStatement(SELECT_ORDERS_BY_USER)) {
+            ps.setInt(1, userId);
+            var rs = ps.executeQuery();
+            while (rs.next()) {
+                var id = rs.getString(ID_COL);
+                var date = rs.getString(DATE_COL);
+                var address = rs.getString(ADDRESS_COL);
+                orders.add(new Order(id, date, address));
+            }
+        } catch (SQLException ex) {
+            ex.printStackTrace();
+        }
+        return orders;
 
+    }
 }
 
 

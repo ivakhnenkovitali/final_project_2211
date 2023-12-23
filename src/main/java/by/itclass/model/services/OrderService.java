@@ -2,6 +2,7 @@ package by.itclass.model.services;
 
 import by.itclass.model.dao.OrderDao;
 import by.itclass.model.db.ConnectionManager;
+import by.itclass.model.entities.Order;
 import by.itclass.model.entities.OrderItem;
 import by.itclass.model.entities.User;
 import jakarta.servlet.http.HttpSession;
@@ -38,6 +39,10 @@ public class OrderService {
 
 
     }
+    public List<Order> getOrders(int userId){
+        return dao.getOrders(userId);
+    }
+
 }
 
 

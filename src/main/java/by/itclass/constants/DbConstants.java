@@ -7,6 +7,9 @@ public class DbConstants {
     public static final String PASS_COL = "password";
     public static final String EMAIL_COL = "email";
     public static final String PRICE_COL = "price";
+    public static final String DATE_COL = "date";
+    public static final String ADDRESS_COL = "address";
+
 
     public static final String SELECT_USER = "SELECT id, name, email FROM user WHERE login = ? AND password = ?";
     public static final String INSERT_USER = "INSERT INTO user (name, email, login, password) values (?, ?, ?, ?)";
@@ -15,7 +18,7 @@ public class DbConstants {
 
     public static final String INSERT_ORDER = "INSERT INTO orders(id, date, userId, address) VALUES (?, ?, ?, ?)";
     public static final String INSERT_ORDER_ITEM = "INSERT INTO orderItem (orderId, itemId, quantity) VALUES(?, ?, ?)";
-
+    public static final String SELECT_ORDERS_BY_USER = "SELECT id, date, address FROM orders WHERE userId = ? ORDER BY id DESC";
 
 
 }
