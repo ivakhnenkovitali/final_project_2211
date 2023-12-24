@@ -10,9 +10,9 @@ public class JspConstants {
     public static final String FOOD_NAME_PARAM ="name";
     public static final String FOOD_PRICE_PARAM = "price";
     public static final String FOOD_QUANTITY_PARAM = "quantity";
-    public static final String ADDRESS_PARAM = "address";
     public static final String CART_ACTION_PARAM = "cartAction";
-
+    public static final String ADDRESS_PARAM = "address";
+    public static final String ORDER_ID_PARAM = "orderId";
 
 
 
@@ -23,7 +23,7 @@ public class JspConstants {
     public static final String ORDER_ITEMS_ATTR = "orderItems";
     public static final String ORDER_ID_ATTR = "orderId";
     public static final String ORDERS_ATTR = "orders";
-
+    public static final String RECEIPT_ATTR = "orderReceipt";
 
 
 
@@ -34,6 +34,7 @@ public class JspConstants {
     public static final String INDEX_JSP = "/index.jsp";
     public static final String CART_JSP = "/jsp/cart.jsp";
     public static final String ORDERS_JSP = "/jsp/orders.jsp";
+    public static final String RECEIPT_JSP = "/jsp/receipt.jsp";
 
     public static final String BACKGROUND_IMAGE = "/img/pizza-dinner.jpg";
 }

@@ -42,7 +42,9 @@ public class OrderService {
     public List<Order> getOrders(int userId){
         return dao.getOrders(userId);
     }
-
+public String buildReceipt(String orderId){
+        return dao.buildReceipt(orderId);
+}
 }
 
 

@@ -6,9 +6,9 @@ import by.itclass.model.entities.OrderItem;
 import by.itclass.model.entities.User;
 import jakarta.servlet.http.HttpSession;
 
-import java.sql.Array;
+
 import java.sql.Connection;
-import java.sql.PreparedStatement;
+
 import java.sql.SQLException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -102,6 +102,66 @@ public class OrderDao {
         }
         return orders;
 
+    }
+
+    public String buildReceipt(String orderId) {
+        var sb = new StringBuilder();
+        try (var cn = ConnectionManager.getConnection();
+             var ps = cn.prepareStatement(SELECT_HEAD_FOR_ORDER)) {
+            ps.setString(1, orderId);
+            var rs = ps.executeQuery();
+            if (rs.next()) {
+                var date = rs.getString(DATE_COL);
+                var address = rs.getString(ADDRESS_COL);
+                sb.append("<h2>Order Id : ").append(orderId).append("</h2>")
+                        .append("<h2>Date of order : ").append(date).append("</h2>")
+                        .append("<h2>Delivery address : ").append(address).append("</h2>")
+                        .append("<h2> class='underline'> You ordered : </h2>")
+                        .append(getItemsForReceipt(orderId, cn))
+                        .append(getTotalAmount(orderId, cn));
+
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return sb.toString();
+    }
+
+    private String getItemsForReceipt(String orderId, Connection cn) {
+        var sb = new StringBuilder();
+        try (var ps = cn.prepareStatement(SELECT_ITEMS_FOR_ORDER)) {
+            ps.setString(1, orderId);
+            var rs = ps.executeQuery();
+            while (rs.next()) {
+                (sb.append("<h2>").append(rs.getInt(QUANTITY_COL)).append(" ")
+                        .append(rs.getString(NAME_COL)).append(" $ ")
+                        .append(rs.getDouble(PRICE_COL))).append(" $. Amount : ")
+                        .append(rs.getDouble(AMOUNT_COL)).append(" $.</h2>");
+
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return sb.toString();
+    }
+
+    private String getTotalAmount(String orderId, Connection cn) {
+        var sb = new StringBuilder();
+        try (var ps = cn.prepareStatement(SELECT_TOTAL_AMOUNT)) {
+
+            ps.setString(1, orderId);
+            var rs = ps.executeQuery();
+            if (rs.next()) {
+                sb.append("<h2 class='underline'> Total amount : ")
+                        .append(Math.round(rs.getDouble(AMOUNT_COL) * 100) / 100d)    /// округление цены 5.9999999
+                        .append(" $.</h2");
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return sb.toString();
     }
 }
 

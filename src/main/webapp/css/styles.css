@@ -170,6 +170,7 @@ input[type=number] {
     padding: 10px 25px;
     text-decoration: none;
     margin: 0 0 20px 20px;
+    cursor: pointer;
  }
 
 .receipt-container{

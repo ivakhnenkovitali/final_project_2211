@@ -18,9 +18,9 @@
             <div class="cart-item-container">
                 <img class="cart-img" src="/img/${orderItem.foodItem.name}.jpg">
                 <h3 class="cart-text">
-                    You ordered ${orderItem.quantity} ${orderItem.foodItem.name}$
-                        ${orderItem.foodItem.price} byn.
-                    Amount is ${orderItem.quantity * orderItem.foodItem.price} byn.
+                    You ordered ${orderItem.quantity} ${orderItem.foodItem.name}
+                        ${orderItem.foodItem.price} $.
+                    Amount is ${orderItem.quantity * orderItem.foodItem.price} $.
                 </h3>
                 <form method="post" action="<%=ApplicationConstants.CART_CONTROLLER%>">
                     <input type="hidden" name="<%=JspConstants.CART_ACTION_PARAM%>" value="removeFromCart">
@@ -42,7 +42,7 @@
                 <h2 class="error">${message}</h2>
             </c:if>
 
-        </div>
+        </div
     </c:when>
     <c:otherwise>
         <h2>You have no items in the cart</h2>

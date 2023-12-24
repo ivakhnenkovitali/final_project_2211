@@ -7,6 +7,6 @@ import lombok.Data;
 @Data
 public class Order {
     private String id;
-    private String data;
+    private String date;
     private String address;
 }
