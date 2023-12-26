@@ -15,6 +15,12 @@ import static by.itclass.constants.JspConstants.*;
 
 @WebServlet(value = CART_CONTROLLER)
 public class CartController extends AbstractController {
+
+
+
+
+
+
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         var id = Integer.parseInt(req.getParameter(FOOD_ID_PARAM));
