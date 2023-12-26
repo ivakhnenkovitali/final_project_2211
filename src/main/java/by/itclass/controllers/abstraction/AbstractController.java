@@ -1,4 +1,4 @@
-package by.itclass.controllers;
+package by.itclass.controllers.abstraction;
 
 import by.itclass.model.services.CartService;
 import by.itclass.model.services.FoodService;

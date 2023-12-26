@@ -12,9 +12,7 @@ import static by.itclass.constants.DbConstants.*;
 public class UserDao {
     private static UserDao dao;
 
-    private UserDao() {
-        ConnectionManager.init();
-    }
+
 
     public static UserDao getInstance() {
         return Objects.isNull(dao) ? new UserDao() : dao;

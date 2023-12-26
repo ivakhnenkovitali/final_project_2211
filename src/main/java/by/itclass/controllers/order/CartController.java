@@ -1,6 +1,6 @@
 package by.itclass.controllers.order;
 
-import by.itclass.controllers.AbstractController;
+import by.itclass.controllers.abstraction.AbstractController;
 import by.itclass.model.entities.FoodItem;
 import by.itclass.model.entities.OrderItem;
 import jakarta.servlet.ServletException;

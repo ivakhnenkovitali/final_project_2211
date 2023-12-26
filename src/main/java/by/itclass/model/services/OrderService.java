@@ -18,7 +18,7 @@ import java.util.Objects;
 import static by.itclass.constants.DbConstants.*;
 import static by.itclass.constants.JspConstants.*;
 
-public class OrderService {
+public class OrderService implements Service{
     private static OrderService service;
     private OrderDao dao;
 

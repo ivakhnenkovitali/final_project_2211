@@ -5,7 +5,7 @@ import by.itclass.model.entities.User;
 
 import java.util.Objects;
 
-public class UserService {
+public class UserService implements Service{
     private static UserService service;
     private UserDao dao;
 

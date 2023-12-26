@@ -22,9 +22,7 @@ import static by.itclass.constants.JspConstants.*;
 public class OrderDao {
     private static OrderDao dao;
 
-    private OrderDao() {
-        ConnectionManager.init();
-    }
+
 
     /// Singleton  −•−−• •− −••• −−− •− −•• −−•• −• −−− −−−• −•− •− −•−−•− −••••− •− −•• −−•• −• −−•• ••• •− −− −•−− •••• •−− •−•− −•• −−− −− −•−− •••• −−−− •− −••• •−•• −−− −• •− •−−• •−• •− • −•− − •− •−− •− −• −• •−•− •••••• • −• •−−• •−• −•−− −−•• −• •− −−−• •− −• −•−− −•• •−•• •−•− − −•−− •••• •−− −•−− •−−• •− −•• −•− •− •−•−•− −•− •− •−•• •−− •− −− •−−• •− − •−• ••−•• −••• • −• − −−− •−•• −••− −•− •− −•• −−•• −• •− ••• −−− −••• −• −•− −•− •−•• •− ••• •− −• • −••• −−− •−•• −••− −−−− •••••• −−• ••−•• − −•−− •− −•• −−•• −• −•− •−•• •− ••• −− −−− •••− •− −••• −•−− −•−• −••− −− ••−•• −• ••−•• −•• •••− ••−•• •−• •− −− •−• ••−•• ••• ••− •−• ••• •− •− −••• −−− −−• •−•• •− −••• •− •−•• −••− −• −•−− −− •−−• −−− −−−− ••− −•− •− −− −−•• −• •− −−−• ••−•• −• −• •−•− ••••••
 //
@@ -116,7 +114,7 @@ public class OrderDao {
                 sb.append("<h2>Order Id : ").append(orderId).append("</h2>")
                         .append("<h2>Date of order : ").append(date).append("</h2>")
                         .append("<h2>Delivery address : ").append(address).append("</h2>")
-                        .append("<h2> class='underline'> You ordered : </h2>")
+                        .append("<h2> class='underline' You ordered : </h2>")
                         .append(getItemsForReceipt(orderId, cn))
                         .append(getTotalAmount(orderId, cn));
 
