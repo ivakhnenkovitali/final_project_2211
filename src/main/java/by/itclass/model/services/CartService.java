@@ -9,7 +9,7 @@ import java.util.Objects;
 
 import static by.itclass.constants.JspConstants.ORDER_ITEMS_ATTR;
 
-public class CartService {
+public class CartService implements Service{
     private static CartService service;
 
 

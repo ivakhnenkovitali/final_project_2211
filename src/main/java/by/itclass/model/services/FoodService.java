@@ -6,11 +6,11 @@ import by.itclass.model.entities.FoodItem;
 import java.util.List;
 import java.util.Objects;
 
-public class FoodService {
+public class FoodService implements Service{
     private static FoodService service;
     private final FoodDao dao;
 
-    private FoodService() {
+    FoodService() {
         dao = FoodDao.getInstance();
     }
 

@@ -22,7 +22,7 @@ public class OrderService implements Service{
     private static OrderService service;
     private OrderDao dao;
 
-    private OrderService() {
+    OrderService() {
         dao = OrderDao.getInstance();
 
     }

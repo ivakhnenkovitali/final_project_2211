@@ -1,11 +1,13 @@
 package by.itclass.listeners;
 
 
+import by.itclass.model.db.ConnectionManager;
+import jakarta.servlet.ServletContextEvent;
 import jakarta.servlet.ServletContextListener;
-import jakarta.servlet.ServletException;
 
-
-@Override
 public class InitContextListener implements ServletContextListener {
-
+    @Override
+    public void contextInitialized(ServletContextEvent sce) {
+        ConnectionManager.init();
+    }
 }
