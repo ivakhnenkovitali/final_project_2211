@@ -1,22 +1,12 @@
 package by.itclass.model.dao;
-
 import by.itclass.model.db.ConnectionManager;
 import by.itclass.model.entities.User;
-
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.Objects;
-
 import static by.itclass.constants.DbConstants.*;
 
 public class UserDao {
-    private static UserDao dao;
-
-
-
-    public static UserDao getInstance() {
-        return Objects.isNull(dao) ? new UserDao() : dao;
-    }
 
     public User getUser(String login, String password) {
         try (var cn = ConnectionManager.getConnection();

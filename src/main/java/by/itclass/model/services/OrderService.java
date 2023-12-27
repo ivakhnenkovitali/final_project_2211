@@ -19,20 +19,14 @@ import static by.itclass.constants.DbConstants.*;
 import static by.itclass.constants.JspConstants.*;
 
 public class OrderService implements Service{
-    private static OrderService service;
     private OrderDao dao;
 
     OrderService() {
-        dao = OrderDao.getInstance();
+        dao = new OrderDao();
 
     }
 
-    public static OrderService getInstance() {
-        if (Objects.isNull(service)) {
-            service = new OrderService();
-        }
-        return service;  /// вернем сервис
-    }
+
 
     public boolean saveOrder(HttpSession session, String address) {
         return dao.saveOrder(session, address);

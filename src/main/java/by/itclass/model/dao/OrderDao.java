@@ -1,39 +1,25 @@
 package by.itclass.model.dao;
-
 import by.itclass.model.db.ConnectionManager;
 import by.itclass.model.entities.Order;
 import by.itclass.model.entities.OrderItem;
 import by.itclass.model.entities.User;
 import jakarta.servlet.http.HttpSession;
-
-
 import java.sql.Connection;
-
 import java.sql.SQLException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
-
 import static by.itclass.constants.DbConstants.*;
 import static by.itclass.constants.JspConstants.*;
 
 public class OrderDao {
-    private static OrderDao dao;
 
 
-
-    /// Singleton  −•−−• •− −••• −−− •− −•• −−•• −• −−− −−−• −•− •− −•−−•− −••••− •− −•• −−•• −• −−•• ••• •− −− −•−− •••• •−− •−•− −•• −−− −− −•−− •••• −−−− •− −••• •−•• −−− −• •− •−−• •−• •− • −•− − •− •−− •− −• −• •−•− •••••• • −• •−−• •−• −•−− −−•• −• •− −−−• •− −• −•−− −•• •−•• •−•− − −•−− •••• •−− −•−− •−−• •− −•• −•− •− •−•−•− −•− •− •−•• •−− •− −− •−−• •− − •−• ••−•• −••• • −• − −−− •−•• −••− −•− •− −•• −−•• −• •− ••• −−− −••• −• −•− −•− •−•• •− ••• •− −• • −••• −−− •−•• −••− −−−− •••••• −−• ••−•• − −•−− •− −•• −−•• −• −•− •−•• •− ••• −− −−− •••− •− −••• −•−− −•−• −••− −− ••−•• −• ••−•• −•• •••− ••−•• •−• •− −− •−• ••−•• ••• ••− •−• ••• •− •− −••• −−− −−• •−•• •− −••• •− •−•• −••− −• −•−− −− •−−• −−− −−−− ••− −•− •− −− −−•• −• •− −−−• ••−•• −• −• •−•− ••••••
+    /// Singleton был −•−−• •− −••• −−− •− −•• −−•• −• −−− −−−• −•− •− −•−−•− −••••− •− −•• −−•• −• −−•• ••• •− −− −•−− •••• •−− •−•− −•• −−− −− −•−− •••• −−−− •− −••• •−•• −−− −• •− •−−• •−• •− • −•− − •− •−− •− −• −• •−•− •••••• • −• •−−• •−• −•−− −−•• −• •− −−−• •− −• −•−− −•• •−•• •−•− − −•−− •••• •−− −•−− •−−• •− −•• −•− •− •−•−•− −•− •− •−•• •−− •− −− •−−• •− − •−• ••−•• −••• • −• − −−− •−•• −••− −•− •− −•• −−•• −• •− ••• −−− −••• −• −•− −•− •−•• •− ••• •− −• • −••• −−− •−•• −••− −−−− •••••• −−• ••−•• − −•−− •− −•• −−•• −• −•− •−•• •− ••• −− −−− •••− •− −••• −•−− −•−• −••− −− ••−•• −• ••−•• −•• •••− ••−•• •−• •− −− •−• ••−•• ••• ••− •−• ••• •− •− −••• −−− −−• •−•• •− −••• •− •−•• −••− −• −•−− −− •−−• −−− −−−− ••− −•− •− −− −−•• −• •− −−−• ••−•• −• −• •−•− ••••••
 //
 
-
-    public static OrderDao getInstance() {
-        if (Objects.isNull(dao)) {
-            dao = new OrderDao();
-        }
-        return dao;
-    }
 
     public boolean saveOrder(HttpSession session, String address) {
         var user = (User) session.getAttribute(USER_ATTR);

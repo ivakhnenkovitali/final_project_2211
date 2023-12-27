@@ -7,16 +7,13 @@ import java.util.List;
 import java.util.Objects;
 
 public class FoodService implements Service{
-    private static FoodService service;
     private final FoodDao dao;
 
     FoodService() {
-        dao = FoodDao.getInstance();
+        dao = new FoodDao();
     }
 
-    public static FoodService getInstance() {
-        return Objects.isNull(service) ? new FoodService() : service;
-    }
+
 
     public List<FoodItem> getFoodItemsByType(int foodType) {
         return dao.getFoodItemsByType(foodType);

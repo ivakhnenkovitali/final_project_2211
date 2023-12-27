@@ -2,6 +2,7 @@ package by.itclass.controllers.order;
 
 
 import by.itclass.controllers.abstraction.AbstractController;
+import by.itclass.controllers.abstraction.OrderAbstractController;
 import by.itclass.model.entities.User;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -15,7 +16,7 @@ import static by.itclass.constants.JspConstants.*;
 
 
 @WebServlet(value = ORDERS_HISTORY_CONTROLLER)
-public class OrdersHistoryController extends AbstractController {
+public class OrdersHistoryController extends OrderAbstractController {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         var session = req.getSession();

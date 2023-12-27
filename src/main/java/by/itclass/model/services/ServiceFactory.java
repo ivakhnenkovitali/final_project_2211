@@ -14,7 +14,7 @@ public class ServiceFactory {
         services.put(ServiceType.ORDER_SERVICE, new OrderService());
     }
 
-    public static Service getInstance(ServiceType serviceType){
+    public static Service getInstance(ServiceType serviceType) {
         return services.get(serviceType);
     }
 }

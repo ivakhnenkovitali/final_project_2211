@@ -1,6 +1,7 @@
 package by.itclass.controllers.order;
 
 import by.itclass.controllers.abstraction.AbstractController;
+import by.itclass.controllers.abstraction.OrderAbstractController;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServletRequest;
@@ -12,7 +13,7 @@ import static by.itclass.constants.ApplicationConstants.*;
 import static by.itclass.constants.JspConstants.*;
 
 @WebServlet(value = ORDER_CONTROLLER)
-public class OrderController extends AbstractController {
+public class OrderController extends OrderAbstractController {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         var address = req.getParameter(ADDRESS_PARAM);

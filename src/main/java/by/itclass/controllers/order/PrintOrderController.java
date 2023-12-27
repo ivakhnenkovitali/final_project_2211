@@ -13,7 +13,7 @@ import static by.itclass.constants.JspConstants.*;
 
 
 @WebServlet(value = PRINT_ORDER_CONTROLLER)
-public class PrintOrderController extends AbstractController {
+public class PrintOrderController extends OrderController {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         var orderId = req.getParameter(ORDER_ID_PARAM);

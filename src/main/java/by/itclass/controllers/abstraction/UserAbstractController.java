@@ -12,5 +12,6 @@ public abstract class UserAbstractController extends AbstractController {
     public void init() throws ServletException{
         userService = (UserService) ServiceFactory.getInstance(ServiceType.USER_SERVICE);
 
+
     }
 }

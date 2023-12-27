@@ -11,13 +11,8 @@ import java.util.Objects;
 import static by.itclass.constants.DbConstants.*;
 
 public class FoodDao {
-    private static FoodDao dao;
 
 
-
-    public static FoodDao getInstance() {
-        return Objects.isNull(dao) ? new FoodDao() : dao;
-    }
 
     public List<FoodItem> getFoodItemsByType(int foodType) {
         var items = new ArrayList<FoodItem>();
