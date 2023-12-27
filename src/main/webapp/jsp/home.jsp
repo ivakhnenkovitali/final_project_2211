@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/styles.css">
     <script src="/js/slider.js"></script>
 </head>
+<body style="background-color: green">
 <body>
 <jsp:include page="<%=JspConstants.MENU_JSP%>"/>
 <h2>Hello ${user.name}</h2>
@@ -25,6 +26,9 @@
 
 <c:if test="${not empty pizzas}">
     <h2>Today we propose next pizzas:</h2>
+    <script>
+        document.getElementsByClassName('slider-container')[0].style.display='none';
+    </script>
     <c:forEach var="pizza" items="${pizzas}">
         <div class="food-item-box">
             <img class="small-image" src="/img/${pizza.name}.jpg" alt="pizza">
@@ -44,6 +48,9 @@
 </c:if>
 <c:if test="${not empty drinks}">
     <h2>Today we propose next drinks:</h2>
+    <script>
+        document.getElementsByClassName('slider-container')[0].style.display='none';
+    </script>
     <c:forEach var="drink" items="${drinks}">
         <div class="food-item-box">
             <img class="small-image" src="/img/${drink.name}.jpg" alt="drink">

@@ -138,7 +138,7 @@ public class OrderDao {
             var rs = ps.executeQuery();
             if (rs.next()) {
                 sb.append("<h2 class='underline'> Total amount : ")
-                        .append(Math.round(rs.getDouble(AMOUNT_COL) * 100) / 100d)    /// округление цены 5.9999999
+                        .append(Math.round(rs.getDouble(AMOUNT_COL)*100)/100d)    /// округление цены 5.9999999
                         .append(" $.</h2");
             }
 

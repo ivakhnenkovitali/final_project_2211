@@ -1,9 +1,13 @@
 package by.itclass.model.dao;
+
 import by.itclass.model.db.ConnectionManager;
 import by.itclass.model.entities.User;
+
 import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.Objects;
+
 import static by.itclass.constants.DbConstants.*;
 
 public class UserDao {
@@ -14,7 +18,7 @@ public class UserDao {
             ps.setString(1, login);
             ps.setString(2, password);
             var resultSet = ps.executeQuery();
-            if(resultSet.next()) {
+            if (resultSet.next()) {
                 var id = resultSet.getInt(ID_COL);
                 var name = resultSet.getString(NAME_COL);
                 var email = resultSet.getString(EMAIL_COL);
@@ -28,8 +32,10 @@ public class UserDao {
 
     public boolean addUser(User user, String password) {
         try (var cn = ConnectionManager.getConnection();
-             var ps = cn.prepareStatement(INSERT_USER)) {
-            if (isAccessible(user.getLogin(), cn)) {
+             var ps = cn.prepareStatement(INSERT_USER);
+             var psSelect = cn.prepareStatement(SELECT_USERID_BY_LOGIN)) {
+            psSelect.setString(1, user.getLogin());
+            if (isAccessible(psSelect)) {
                 ps.setString(1, user.getName());
                 ps.setString(2, user.getEmail());
                 ps.setString(3, user.getLogin());
@@ -42,13 +48,8 @@ public class UserDao {
         return false;
     }
 
-    private boolean isAccessible(String login, Connection cn) throws SQLException {
-        try (var ps = cn.prepareStatement(SELECT_USERID_BY_LOGIN)) {
-            ps.setString(1, login);
-            return !ps.executeQuery().next();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        return false;
+    private boolean isAccessible(PreparedStatement ps) throws SQLException {
+        return !ps.executeQuery().next();
+
     }
 }

@@ -5,10 +5,12 @@
 
 <html>
 <head>
+
     <title>Orders page</title>
     <link rel="stylesheet" href="/css/styles.css">
 </head>
-<body>
+<body style="background-color: green">
+
 <jsp:include page="<%=JspConstants.MENU_JSP%>"/>
 <h2>Hello ${user.name}</h2>
 <c:choose>
