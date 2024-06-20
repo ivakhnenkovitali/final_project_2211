@@ -54,6 +54,8 @@
     </plugins>
   </build>
 </project>
+![02](https://github.com/ivakhnenkovitali/final_project_2211/assets/141067997/d506851f-b948-4573-bc0e-57d004bce5ce)
 
 
-![video-0-00-01-536](https://github.com/ivakhnenkovitali/final_project_2211/assets/141067997/745efbc3-81ae-4a22-9141-6430a6717a87)
+
+
