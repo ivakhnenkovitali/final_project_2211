@@ -1,14 +1,28 @@
- [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Information+магазин)](https://git.io/typing-svg)
 ![02](https://github.com/ivakhnenkovitali/final_project_2211/assets/141067997/d506851f-b948-4573-bc0e-57d004bce5ce)
 
 ![03](https://github.com/ivakhnenkovitali/final_project_2211/assets/141067997/650685a8-6a07-4ae4-ab1f-1f861acbf88f)
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Final+project)](https://git.io/typing-svg)    
-Создадим проект на основе архитипа  maven-archetype-webapp архетипа и попробуем его реализовать на последней LTS версии Java. 
+
+
+
+
+Information+магазин
+
+
+
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Создадим проект на основе архитипа  maven-archetype-webapp архетипа и попробуем его реализовать на последней LTS версии Java. 
 Это версия JDK Development Kit 17.0.9. (можно скачать с оффсайта Oracle версию Open JDK).
 Архитипа  Maven – это  структура папок и файлов проекта, которые используются при создании проекта.
 После того, как maven закончит генерацию проекта чистим pom.xml файл от лишнего,  устанавливаем 17 уровень компайлера и подключаем jetty-maven-plugin (11.0.18). 
-В 
+В )](https://git.io/typing-svg)
+
+
+
+
+
+
 
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
