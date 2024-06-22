@@ -12,7 +12,9 @@ Information+магазин
 
 
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Создадим проект на основе архитипа  maven-archetype-webapp архетипа и попробуем его реализовать на последней LTS версии Java. 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Создадим+проект+на+основе+архитипа+maven+-archetype+-webapp+архетипа+и+попробуем+его+реализовать+на )](https://git.io/typing-svg)
+
+последней LTS версии Java. 
 Это версия JDK Development Kit 17.0.9. (можно скачать с оффсайта Oracle версию Open JDK).
 Архитипа  Maven – это  структура папок и файлов проекта, которые используются при создании проекта.
 После того, как maven закончит генерацию проекта чистим pom.xml файл от лишнего,  устанавливаем 17 уровень компайлера и подключаем jetty-maven-plugin (11.0.18). 
