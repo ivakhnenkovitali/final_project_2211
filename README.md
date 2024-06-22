@@ -1,3 +1,5 @@
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Information+Technology)](https://git.io/typing-svg)
+
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Information+Technology                Final project
 Создадим проект на основе архитипа  maven-archetype-webapp архетипа и попробуем его реализовать на последней LTS версии Java. 
@@ -960,15 +962,6 @@ public class OrderItem {
 </form>
 
 
-
-
-
-
-
-
-
-
-
 Стили для форм
 
 input[type=number] {
@@ -1117,16 +1110,6 @@ public static final String CART_JSP = "/jsp/cart.jsp";
 
 Все действия по добавлению и удалению позиций корзины пока происходят в сессии, созданной для пользователя...  на странице корзины мы также сделаем возможность сабмитнуть наш заказ, предварительно введя адрес доставки – обратим внимание, что это поле сделано реквайред. 
                             )](https://git.io/typing-svg)
-
-
-
-
-
-
-
-
-
-
 
 
 
