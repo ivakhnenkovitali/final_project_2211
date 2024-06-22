@@ -1,5 +1,7 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Information+Technology)](https://git.io/typing-svg)
+![02](https://github.com/ivakhnenkovitali/final_project_2211/assets/141067997/d506851f-b948-4573-bc0e-57d004bce5ce)
 
+![03](https://github.com/ivakhnenkovitali/final_project_2211/assets/141067997/650685a8-6a07-4ae4-ab1f-1f861acbf88f)
 
     Final project
 Создадим проект на основе архитипа  maven-archetype-webapp архетипа и попробуем его реализовать на последней LTS версии Java. 
@@ -89,10 +91,6 @@ public class User {
 }
 
 И хоть у нас и будет использоваться пароль, но он обычно не включается как поле класса, а просто храниться в базе данных...
-
-
-
-
 
 Теперь приступим к реализации механизма авторизации на основе сервлетов и jsp.
 Задача сервлета получить параметры и передать их.
@@ -457,9 +455,9 @@ public User getUser(String login, String password) {
 }
 
 
-Для проверки создадим базу данных po_2211_17_version 
+Для проверки создадим базу данных po__17_version 
 
-CREATE DATABASE po_2211_17_version;
+CREATE DATABASE po_17_version;
 
 в базе данных создадим таблицу user, с соответствующими полями
 
@@ -638,11 +636,6 @@ private boolean isAccessible(String login, Connection cn)
   </c:choose>
 </ul>
 
-
-
-
-
-
 Дополним стили
 
 .nav-ul{
@@ -700,8 +693,6 @@ private boolean isAccessible(String login, Connection cn)
 public static final String BACKGROUND_IMAGE = "/img/pizza-dinner.jpg";
 
 
-
-
 Добавим стили для картинки
 
 .default-image {    
@@ -734,7 +725,6 @@ CREATE TABLE foodItem (
    price double NOT NULL
 );
 
-
 INSERT INTO foodItem (foodTypeId, name, price) VALUES
    	(1, 'Margherita', 15.99), (1, 'Napoletana', 17.99),
    	(1, 'Carbonara', 25.99), (1, 'Peperoni', 25.99),
@@ -752,7 +742,6 @@ CREATE TABLE orders (
    FOREIGN KEY (userId) REFERENCES user (id)
                     ON DELETE CASCADE ON UPDATE RESTRICT
 );
-
 
 CREATE TABLE orderItem (
    orderId varchar(50) NOT NULL,
@@ -912,8 +901,6 @@ public static final String DRINK_ATTR = "drinks";
 
 
 Конечно, показать меню – это достижение... но было бы прикольно и добавить чего-нить в корзину... 
-
-
 Чтобы нам было чего добавлять – напишем класс OrderItem в пакете model.entities. Данный класс будет хранить соответствие определенному заказу некоторого пункта меню, а также количество заказанных продуктов 
 
 @Data
@@ -926,7 +913,6 @@ public class OrderItem {
 }
 
 Возможность заказать продукт организуем в виде форм, которые поместим на нашу home.jsp страницу в каждый айтем меню. 
-
 Для пиццы 
 
 <form method="post" action="<%=ApplicationConstants.CART_CONTROLLER%>">
@@ -961,9 +947,7 @@ public class OrderItem {
   <input type="submit" value="Add to Cart">
 </form>
 
-
 Стили для форм
-
 input[type=number] {
    width: 45px;                      padding: 5px; }
 
@@ -1010,7 +994,6 @@ public class CartService {
       return items;
    }
 }
-
 Поскольку айтемы хранятся в сесии и обращения к внешней БД нету, то не нужно ДАО. 
 А вот и сам сервлет, его кстати напишем в пакете controllers/order
 
@@ -1107,16 +1090,13 @@ public static final String CART_JSP = "/jsp/cart.jsp";
    text-decoration: none;            margin: 0px 3px;
    cursor: pointer; }
 
-
 Все действия по добавлению и удалению позиций корзины пока происходят в сессии, созданной для пользователя...  на странице корзины мы также сделаем возможность сабмитнуть наш заказ, предварительно введя адрес доставки – обратим внимание, что это поле сделано реквайред. 
-                            )](https://git.io/typing-svg)
+                          
 
 
 
 
-![02](https://github.com/ivakhnenkovitali/final_project_2211/assets/141067997/d506851f-b948-4573-bc0e-57d004bce5ce)
 
-![03](https://github.com/ivakhnenkovitali/final_project_2211/assets/141067997/650685a8-6a07-4ae4-ab1f-1f861acbf88f)
 
 
 
