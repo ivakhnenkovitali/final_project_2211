@@ -1,7 +1,7 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Information+Technology)](https://git.io/typing-svg)
 
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Information+Technology                Final project
+    Final project
 Создадим проект на основе архитипа  maven-archetype-webapp архетипа и попробуем его реализовать на последней LTS версии Java. 
 Это версия JDK Development Kit 17.0.9. (можно скачать с оффсайта Oracle версию Open JDK).
 Архитипа  Maven – это  структура папок и файлов проекта, которые используются при создании проекта.
