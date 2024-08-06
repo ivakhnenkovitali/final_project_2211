@@ -1,7 +1,6 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Final+project)](https://git.io/typing-svg)   
 ![02](https://github.com/ivakhnenkovitali/final_project_2211/assets/141067997/d506851f-b948-4573-bc0e-57d004bce5ce)
 ![03](https://github.com/ivakhnenkovitali/final_project_2211/assets/141067997/650685a8-6a07-4ae4-ab1f-1f861acbf88f)
-
  [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Создадим+проект+Интернет+магазин)](https://git.io/typing-svg)на основе архитипа maven -archetype -webapp архетипа и попробуем+его реализовать на последней LTS версии Java. 
 Это версия JDK Development Kit 17.0.9. (можно скачать с оффсайта Oracle версию Open JDK).
 Архитипа  Maven – это  структура папок и файлов проекта, которые используются при создании проекта.
