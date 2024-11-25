@@ -1,6 +1,6 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Кухня+все+в+одном+месте)](https://git.io/typing-svg)   
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Кушайте+с+удовольствием+без+лишних+хлопот+.)](https://git.io/typing-svg)   
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Кушайте+с+удовольствием+без+хлопот+.)](https://git.io/typing-svg)   
 
 ________________________________________
 ___________________________________________
