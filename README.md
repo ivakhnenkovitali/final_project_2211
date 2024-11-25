@@ -1,8 +1,6 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Кухня+все+в+одном+месте)](https://git.io/typing-svg)   
 
-
-Кушайте+с+удовольствием+без+лишних+хлопот.
-
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Кушайте+с+удовольствием+без+лишних+хлопот+.)](https://git.io/typing-svg)   
 
 ________________________________________
 ___________________________________________
@@ -10,9 +8,6 @@ ___________________________________________
 https://www.youtube.com/watch?v=mhTtMqqpajg
 ___________________________________________
 ________________________________________
-
-
-
 
 
 ![02](https://github.com/ivakhnenkovitali/final_project_2211/assets/141067997/d506851f-b948-4573-bc0e-57d004bce5ce)
