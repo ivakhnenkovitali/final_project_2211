@@ -25,14 +25,14 @@ __________________________________________________
 После того, как maven закончит генерацию проекта чистим pom.xml файл от лишнего,  устанавливаем 17 уровень компайлера и подключаем jetty-maven-plugin (11.0.18). 
 В
 
-
+   ____________________                    
 Гэта версія JDK Development Kit 17.0.9. (можна спампаваць з афіцыйнага сайта Oracle версію Open JDK). Архетып Maven – гэта структура тэчак і файлаў праекта, якія выкарыстоўваюцца пры стварэнні праекта. Пасля таго, як Maven скончыць генерацыю праекта, 
 файл pom.xml ад лішняга, усталёўваем 17-ы ўзровень кампайлера і падключаем jetty-maven-plugin (11.0.18).
 
-
+   _________________________
 Dies ist die Version des JDK Development Kits 17.0.9. (Die Open JDK-Version kann von der offiziellen Oracle-Website heruntergeladen werden). Das Maven-Archetyp ist die Ordner- und Dateistruktur eines Projekts, die beim Erstellen eines Projekts verwendet wird.
 Nachdem Maven die Projekterstellung abgeschlossen hat, bereinigen wir die pom.xml-Datei von unnötigem Inhalt, setzen das Compiler-Level auf 17 und fügen das jetty-maven-plugin (11.0.18) hinzu.
-
+  ___________________________
 This is version 17.0.9 of the JDK Development Kit. (You can download the Open JDK version from the official Oracle website). A Maven archetype is the folder and file structure of a project used when creating a project. After Maven finishes generating the project,
 we clean the pom.xml file from unnecessary parts, set the compiler level to 17, and add the jetty-maven-plugin (11.0.18).
 
