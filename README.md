@@ -4,19 +4,16 @@ ______________________________________________________________________
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Кухня+ўсё+ў+адным+месцы)](https://git.io/typing-svg)   
 __________________________________________________________________
 _________________________________________________________________
-
-Küche alles an einem Ort.
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Küche+alles+an+einem+Ort)](https://git.io/typing-svg)  
 _________________________________________________________________
 _________________________________________________________________
-
-Kitchen all in one place.
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Kitchen+all+in+one+place)](https://git.io/typing-svg)  
 ___________________________________________________________
 _________________________________________________________________
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Кушайте+с+удовольствием+без+хлопот+.)](https://git.io/typing-svg)   
 ________________________________________
 ___________________________________________
-____________________________________
  Кухня-кафе  запуск ЮЗЕРА 
 
 https://www.youtube.com/watch?v=0ABftQLyHfs&t=109s
