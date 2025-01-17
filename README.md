@@ -39,7 +39,38 @@ WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF TH
 
 
 ____________________________________________________________________
-_________________________________________________________________
+___________________________________________________________
+Copyright (c) 2024,   
+Alle Rechte vorbehalten.
+
+Die Redistribution und Nutzung in Quell- und Binärformen, mit oder ohne
+Änderungen, sind gestattet, sofern die folgenden Bedingungen erfüllt sind:
+
+Die Weiterverbreitung des Quellcodes muss den oben genannten Copyright-Hinweis, diese Liste der
+Bedingungen und den folgenden Haftungsausschluss beibehalten. Die Weiterverbreitung in Binärform muss
+den oben genannten Copyright-Hinweis, diese Liste der Bedingungen und den folgenden Haftungsausschluss
+in der Dokumentation und/oder anderen Materialien, die mit der Verteilung bereitgestellt werden, wiedergeben.
+
+Weder der Name ivakhnenkovitali.com noch die Namen seiner Mitwirkenden dürfen verwendet werden, um
+Produkte, die aus dieser Software abgeleitet sind, ohne ausdrückliche vorherige schriftliche
+Genehmigung zu unterstützen oder zu bewerben.
+
+DIESE SOFTWARE WIRD VON DEN COPYRIGHT-INHABERN UND MITWIRKENDEN "WIE BESEHEN" BEREITGESTELLT, UND
+ALLE AUSDRÜCKLICHEN ODER IMPLIZIERTEN GARANTIEN, EINSCHLIESSLICH, ABER NICHT BESCHRÄNKT AUF, DIE IMPLIZIERTEN
+GARANTIEN DER MARKTFÄHIGKEIT UND EIGNUNG FÜR EINEN BESTIMMTEN ZWECK, WERDEN ABGELEHNT. IN KEINEM FALL
+HAFTEN DIE COPYRIGHT-INHABER ODER MITWIRKENDEN FÜR DIREKTE, INDIREKTE, NEBENSÄCHLICHE, BESONDERE,
+MUSTERHAFTIGE ODER FOLGESCHÄDEN (EINSCHLIESSLICH, ABER NICHT BESCHRÄNKT AUF, DEN ERWERB VON
+ERSATZGÜTERN ODER DIENSTLEISTUNGEN; VERLUST VON GEBRAUCH, DATEN ODER GEWINNEN; ODER
+UNTERBRECHUNG DES GESCHÄFTSBETRIEBS), UNABHÄNGIG VON DER URSACHE UND JEDER HAFTUNGSTHEORIE, OB IN
+VERTRAG, STRIKTER HAFTUNG ODER DELIKT (EINSCHLIESSLICH FAHRLÄSSIGKEIT ODER ANDERWEITIG), DIE AUF IRGENDEINE
+WEISE AUS DER NUTZUNG DIESER SOFTWARE ENTSTEHT, SELBST WENN AUF DIE MÖGLICHKEIT HINGEWIESEN WURDE.
+
+![](../../1.png)
+
+
+
+
+___________________________________________________________
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Кухня+все+в+одном+месте)](https://git.io/typing-svg)   
 
