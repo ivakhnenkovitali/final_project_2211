@@ -40,7 +40,7 @@ WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF TH
 
 ____________________________________________________________________
 ___________________________________________________________
-Copyright (c) 2024,   
+Copyright (R) 2025,   
 Alle Rechte vorbehalten.
 
 Die Redistribution und Nutzung in Quell- und Binärformen, mit oder ohne
