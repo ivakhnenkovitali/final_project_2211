@@ -98,6 +98,20 @@ ________________________________________
 ________________________________________________
 ![03](https://github.com/ivakhnenkovitali/final_project_2211/assets/141067997/650685a8-6a07-4ae4-ab1f-1f861acbf88f)
 __________________________________________________
+![p01](https://github.com/user-attachments/assets/a04af016-bfb9-4a4e-b6a2-fcbf92f11df7)
+
+__________________________________________________
+![p02](https://github.com/user-attachments/assets/3ef973ec-62af-4b6a-939a-cef86310ad36)
+
+____________________________________________________
+![p03](https://github.com/user-attachments/assets/ef399501-b56d-4258-a222-2c450382bb51)
+
+___________________________________________________
+
+![p04](https://github.com/user-attachments/assets/a8b28836-7f4c-44fc-a346-3e3792d5c6ff)
+
+_______________________________________________
+
  [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Создадим+проект+Интернет+еда)](https://git.io/typing-svg)на основе архитипа maven -archetype -webapp архетипа и попробуем+его реализовать на последней LTS версии Java. 
 Это версия JDK Development Kit 17.0.9. (можно скачать с оффсайта Oracle версию Open JDK).
 Архитипа  Maven – это  структура папок и файлов проекта, которые используются при создании проекта.
