@@ -1232,8 +1232,209 @@ public static final String CART_JSP = "/jsp/cart.jsp";
 
 Все действия по добавлению и удалению позиций корзины пока происходят в сессии, созданной для пользователя...  на странице корзины мы также сделаем возможность сабмитнуть наш заказ, предварительно введя адрес доставки – обратим внимание, что это поле сделано реквайред. 
                           
+_______________________________________________________________________________
+____________________________________________________________________
+This code represents a web application for a pizzeria, implemented in Java using:
+
+Technologies:
+
+Java 17 (LTS)
+
+Maven (webapp archetype)
+
+Jetty (embedded server via jetty-maven-plugin)
+
+Servlet API 6.0
+
+JSP + JSTL
+
+MySQL
+
+Architecture:
+
+MVC pattern
+
+Three-layer structure (Controllers → Services → DAO)
+
+Singleton pattern for services and DAO classes
+
+Main Features:
+
+User system:
+
+Registration
+
+Login
+
+Logout
+
+Pizzeria menu:
+
+View pizzas & drinks
+
+Add to cart
+
+Order management:
+
+Cart modifications
+
+Checkout
+
+Database:
+
+Tables: user, foodItem, orders, orderItem
+
+Connection via ConnectionManager with db.properties
+
+Key Implementation Details:
+
+Abstract base servlet
+
+Session handling
+
+Constants separation
+
+Lombok for model classes
+
+Multi-language comments (though UI is not localized)
+
+____________________________________________________________
+_______________________________________________________________
+Dieser Code stellt eine Webanwendung für eine Pizzeria dar, die in Java implementiert wurde mit:
+
+Technologien:
+
+Java 17 (LTS)
+
+Maven (Webapp-Archetyp)
+
+Jetty (eingebetteter Server via jetty-maven-plugin)
+
+Servlet API 6.0
+
+JSP + JSTL
+
+MySQL
+
+Architektur:
+
+MVC-Pattern
+
+Drei-Schichten-Struktur (Controller → Services → DAO)
+
+Singleton-Pattern für Services und DAO
+
+Hauptfunktionen:
+
+Benutzersystem:
+
+Registrierung
+
+Anmeldung
+
+Abmeldung
+
+Pizzeria-Menü:
+
+Anzeige von Pizzen & Getränken
+
+Warenkorb-Funktion
+
+Bestellverwaltung:
+
+Warenkorb-Anpassungen
+
+Bestellabschluss
+
+Datenbank:
+
+Tabellen: user, foodItem, orders, orderItem
+
+Verbindung via ConnectionManager mit db.properties
+
+Besonderheiten:
+
+Abstrakter Basis-Servlet
+
+Session-Verwaltung
+
+Trennung von Konstanten
+
+Lombok für Model-Klassen
+
+Mehrsprachige Kommentare (UI nicht lokalisiert)
 
 
+
+_______________________________________________________
+______________________________________________________
+
+Ce code représente une application web pour une pizzeria, développée en Java avec :
+
+Technologies :
+
+Java 17 (LTS)
+
+Maven (archétype webapp)
+
+Jetty (serveur embarqué via jetty-maven-plugin)
+
+Servlet API 6.0
+
+JSP + JSTL
+
+MySQL
+
+Architecture :
+
+Modèle MVC
+
+Structure à trois couches (Contrôleurs → Services → DAO)
+
+Singleton pour les services et DAO
+
+Fonctionnalités principales :
+
+Gestion des utilisateurs :
+
+Inscription
+
+Connexion
+
+Déconnexion
+
+Menu de la pizzeria :
+
+Affichage des pizzas & boissons
+
+Ajout au panier
+
+Gestion des commandes :
+
+Modification du panier
+
+Validation
+
+Base de données :
+
+Tables : user, foodItem, orders, orderItem
+
+Connexion via ConnectionManager avec db.properties
+
+Détails clés :
+
+Servlet de base abstraite
+
+Gestion des sessions
+
+Séparation des constantes
+
+Lombok pour les modèles
+
+Commentaires multilingues (UI non localisée)
+
+__________________________________________________
+_________________________________________________
 
 
 
