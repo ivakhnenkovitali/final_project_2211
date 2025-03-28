@@ -14,9 +14,9 @@ the above copyright notice, this list of conditions and the following disclaimer
 the documentation and/or other materials provided with the distribution.
 
 <<<<<<< HEAD
-Neither the name of ivakhnenkovitali.com   nor the names of its contributors may be used to endorse
+Neither the name of ivakhnenkovitali  nor the names of its contributors may be used to endorse
 =======
-Neither the name of ivakhnenkovitali.com nor the names of its contributors may be used to endorse
+Neither the name of ivakhnenkovitali nor the names of its contributors may be used to endorse
 >>>>>>> vitali/master
 or promote products derived from this software without specific prior written
 permission.
