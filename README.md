@@ -32,7 +32,6 @@ CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING 
 WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF TH
 
 ![](../../1.png)
-
 ____________________________________________________________________
 ___________________________________________________________
 Copyright (R) 2025,   
