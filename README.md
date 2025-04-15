@@ -99,6 +99,16 @@ ________________________________________________
 ![03](https://github.com/ivakhnenkovitali/final_project_2211/assets/141067997/650685a8-6a07-4ae4-ab1f-1f861acbf88f)
 __________________________________________________
 ![p01](https://github.com/user-attachments/assets/a04af016-bfb9-4a4e-b6a2-fcbf92f11df7)
+______________________________________________________
+![pi_1](https://github.com/user-attachments/assets/c0cc5e04-7f55-4180-ada8-d9fbc28767c2)
+
+_______________________________________________________
+![pi_2](https://github.com/user-attachments/assets/70fc9dfd-ad0c-4bc5-928c-56f972295a85)
+__________________________________________________
+![ba_1](https://github.com/user-attachments/assets/dd6c234a-bab8-46a3-bf34-a674d4db848c)
+______________________________________________________
+![caf_1](https://github.com/user-attachments/assets/56d4fff3-345c-442b-89fb-7c08aca56197)
+_____________________________________________________
 
 __________________________________________________
 ![p02](https://github.com/user-attachments/assets/3ef973ec-62af-4b6a-939a-cef86310ad36)
