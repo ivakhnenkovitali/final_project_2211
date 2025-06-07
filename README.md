@@ -156,18 +156,8 @@ This is version 17.0.9 of the JDK Development Kit. (You can download the Open JD
 we clean the pom.xml file from unnecessary parts, set the compiler level to 17, and add the jetty-maven-plugin (11.0.18).
 _____________________________________________________
 
-final_project_2211/
- ├── src/main/java/com/example/project/
- │    ├── controllers/
- │    │     └── MainController.java
- │    ├── models/
- │    ├── services/
- │    └── repository/
- ├── src/main/resources/
- │    ├── templates/
- │    │     └── index.html
- │    └── application.properties
- └── pom.xml
+![fgdfdg](https://github.com/user-attachments/assets/7996b760-d987-4d51-8823-38b025e24a23)
+
 
 ________________________
 <?xml version="1.0" encoding="UTF-8"?>
