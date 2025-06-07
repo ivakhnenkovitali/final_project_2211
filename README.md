@@ -154,7 +154,20 @@ Nachdem Maven die Projekterstellung abgeschlossen hat, bereinigen wir die pom.xm
   ___________________________
 This is version 17.0.9 of the JDK Development Kit. (You can download the Open JDK version from the official Oracle website). A Maven archetype is the folder and file structure of a project used when creating a project. After Maven finishes generating the project,
 we clean the pom.xml file from unnecessary parts, set the compiler level to 17, and add the jetty-maven-plugin (11.0.18).
+_____________________________________________________
 
+final_project_2211/
+ ├── src/main/java/com/example/project/
+ │    ├── controllers/
+ │    │     └── MainController.java
+ │    ├── models/
+ │    ├── services/
+ │    └── repository/
+ ├── src/main/resources/
+ │    ├── templates/
+ │    │     └── index.html
+ │    └── application.properties
+ └── pom.xml
 
 ________________________
 <?xml version="1.0" encoding="UTF-8"?>
