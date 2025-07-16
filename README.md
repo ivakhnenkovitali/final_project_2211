@@ -62,8 +62,6 @@ WEISE AUS DER NUTZUNG DIESER SOFTWARE ENTSTEHT, SELBST WENN AUF DIE MÖGLICHKEIT
 ![](../../1.png)
 
 
-
-
 ___________________________________________________________
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Кухня+все+в+одном+месте)](https://git.io/typing-svg)   
