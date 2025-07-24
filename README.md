@@ -84,9 +84,19 @@ ___________________________________________
 
 https://www.youtube.com/watch?v=0ABftQLyHfs&t=109s
  
+
+https://github.com/user-attachments/assets/9d23f68e-6605-4793-a046-964649ac0e9e
+
+
 ________________________________
 запуска и работа
 https://www.youtube.com/watch?v=mhTtMqqpajg
+
+
+
+https://github.com/user-attachments/assets/a6b84397-05f8-410e-8ba7-831093e84912
+
+
 ___________________________________________
 ________________________________________
 
